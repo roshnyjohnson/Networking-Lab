@@ -1,4 +1,8 @@
 //client
+
+
+                
+$ cat exp8client.c
 #include<stdio.h>
 #include<stdlib.h>
 #include<arpa/inet.h>
@@ -52,6 +56,7 @@ int main()
         close(server_socket);
         return 0;
 }
+
 
 ASUS@DESKTOP-SFADVSU /cygdrive/e/cn lab
 $ cat exp8server.c
